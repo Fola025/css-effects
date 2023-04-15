@@ -2,7 +2,18 @@
 module.exports = {
   content: ["./dist/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      lineHeight: {
+        '15': '1.2'
+      },
+      colors:{
+        'turquiose': '#358f80',
+        'button': '#248277'
+      }
+      margin:{
+        
+      }
+    },
   },
   plugins: [],
 }
